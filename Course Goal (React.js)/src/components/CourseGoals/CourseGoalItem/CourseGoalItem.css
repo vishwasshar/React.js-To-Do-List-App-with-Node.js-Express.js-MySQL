@@ -1,0 +1,41 @@
+.goal-item {
+  background: #8b005d;
+  color: white;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  display: flex;
+  width: 90%;
+}
+
+.goal-card {
+  background: #8b005d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 1rem 0;
+  display: flex;
+  border: 1px solid black;
+}
+
+.delete-icon {
+  color: rgb(247, 237, 237);
+}
+
+.action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  color: white;
+  width: 10%;
+}
+
+.action-button:hover {
+  cursor: pointer;
+}
+
+.action-button:first-child:hover {
+  color: rgb(255, 78, 78);
+}
+
+.action-button:last-child:hover {
+  color: rgb(74, 137, 255);
+}
